@@ -1,0 +1,38 @@
+{
+   guistr: "# # String gsaved with Nlview 6.4.12  2014-12-16 bk=1.3272 VDI=35 GEI=35 GUI=JA:1.8
+#  -string -flagsOSRD
+preplace port change_indicator -pg 1 -y 460 -defaultsOSRD
+preplace port init_spi_config -pg 1 -y 140 -defaultsOSRD
+preplace port play -pg 1 -y 440 -defaultsOSRD
+preplace port read_from_spi_init_axi_txn -pg 1 -y 280 -defaultsOSRD
+preplace port rec -pg 1 -y 420 -defaultsOSRD
+preplace port out_clk -pg 1 -y 500 -defaultsOSRD
+preplace port write_to_ram_init_axi_txn -pg 1 -y 220 -defaultsOSRD
+preplace port aresetn -pg 1 -y 200 -defaultsOSRD
+preplace portBus MIO -pg 1 -y 120 -defaultsOSRD
+preplace portBus data_out -pg 1 -y 440 -defaultsOSRD
+preplace inst read_spi_0 -pg 1 -lvl 1 -y 200 -defaultsOSRD
+preplace inst axi_memory_0 -pg 1 -lvl 2 -y 330 -defaultsOSRD
+preplace inst debug_fifo_0 -pg 1 -lvl 3 -y 450 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 2 -y 140 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 3 -y 160 -defaultsOSRD
+preplace netloc rec_1 1 0 3 NJ 420 NJ 420 NJ
+preplace netloc init_spi_config_1 1 0 1 NJ
+preplace netloc read_from_spi_init_axi_txn_1 1 0 1 NJ
+preplace netloc read_spi_0_cur 1 1 2 630 400 NJ
+preplace netloc processing_system7_0_IRQ_P2F_SPI1 1 0 4 250 10 NJ 10 NJ 10 1340
+preplace netloc play_1 1 0 3 NJ 440 NJ 440 NJ
+preplace netloc out_clk_1 1 0 3 NJ 500 NJ 500 NJ
+preplace netloc debug_fifo_0_data_out 1 3 1 NJ
+preplace netloc axi_interconnect_0_M00_AXI 1 2 1 N
+preplace netloc read_spi_0_Read_from_SPI 1 1 1 630
+preplace netloc aresetn_1 1 0 3 240 340 660 460 NJ
+preplace netloc debug_fifo_0_change_indicator 1 3 1 NJ
+preplace netloc write_to_ram_init_axi_txn_1 1 0 1 NJ
+preplace netloc Net 1 3 1 NJ
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 250 330 640 260 940 310 1340
+preplace netloc read_spi_0_Write_to_RAM 1 1 1 650
+levelinfo -pg 1 220 440 800 1140 1360
+",
+}
+0

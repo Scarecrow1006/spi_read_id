@@ -1,0 +1,161 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Thu Apr  5 20:04:29 2018
+| Host         : cristopher running 64-bit Ubuntu 16.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_memory_0_2'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the update of design_1_axi_memory_0_2 (user.org:user:axi_memory:1.0 (Rev. 4)) to current project options.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'design_1_axi_memory_0_2'. These changes may impact your design.
+
+
+-upgrade has added port 'cur'
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Thu Apr  5 20:03:42 2018
+| Host         : cristopher running 64-bit Ubuntu 16.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_memory_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_axi_memory_0_2 (user.org:user:axi_memory:1.0 (Rev. 4)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Thu Apr  5 03:58:58 2018
+| Host         : cristopher running 64-bit Ubuntu 16.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_memory_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_axi_memory_0_2 (user.org:user:axi_memory:1.0 (Rev. 4)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Mon Mar 26 05:59:44 2018
+| Host         : cristopher running 64-bit Ubuntu 16.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_memory_0_2'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_axi_memory_0_2 (user.org:user:axi_memory:1.0) from (Rev. 1) to (Rev. 4)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'design_1_axi_memory_0_2'. These changes may impact your design.
+
+
+-upgraded port 's00_axi_araddr' width 32 differs from original width 6
+-upgraded port 's00_axi_awaddr' width 32 differs from original width 6
+
+3. Customization warnings
+-------------------------
+
+WARNING: An attempt to modify the value of disabled parameter 'C_S00_AXI_ADDR_WIDTH' from '32' to '6' has been ignored for IP '/axi_memory_0'
+
+
+4. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  Please consult the warnings from the previous sections, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv user.org:user:axi_memory:1.0 -user_name design_1_axi_memory_0_2
+set_property -dict "\
+  CONFIG.C_S00_AXI_ID_WIDTH 1 \
+  CONFIG.C_S00_AXI_DATA_WIDTH 32 \
+  CONFIG.C_S00_AXI_ADDR_WIDTH 6 \
+  CONFIG.C_S00_AXI_AWUSER_WIDTH 0 \
+  CONFIG.C_S00_AXI_ARUSER_WIDTH 0 \
+  CONFIG.C_S00_AXI_WUSER_WIDTH 0 \
+  CONFIG.C_S00_AXI_RUSER_WIDTH 0 \
+  CONFIG.C_S00_AXI_BUSER_WIDTH 0 \
+  CONFIG.C_S00_AXI_BASEADDR 0xFFFFFFFF \
+  CONFIG.C_S00_AXI_HIGHADDR 0x00000000 \
+  CONFIG.Component_Name design_1_axi_memory_0_2 " [get_ips design_1_axi_memory_0_2]
+
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Sun Mar 25 04:44:03 2018
+| Host         : cristopher running 64-bit Ubuntu 16.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_memory_0_2'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the update of design_1_axi_memory_0_2 (user.org:user:axi_memory:1.0 (Rev. 1)) to current project options.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'design_1_axi_memory_0_2'. These changes may impact your design.
+
+
+-upgrade has added port 'value'
+

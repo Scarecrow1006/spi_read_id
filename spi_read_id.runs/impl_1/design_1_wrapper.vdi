@@ -1,0 +1,755 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sun Apr  8 06:10:42 2018
+# Process ID: 18676
+# Log file: /media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.runs/impl_1/design_1_wrapper.vdi
+# Journal file: /media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 64 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.2
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst'
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:353]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:354]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:355]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:356]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:357]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:358]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:359]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:360]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:361]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:362]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:363]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:364]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:365]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:366]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:367]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:368]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:369]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:370]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:371]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:372]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:373]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:374]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:375]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:376]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:377]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:378]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:379]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:380]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:381]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:382]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:383]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:384]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:385]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:386]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:387]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:388]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:389]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:390]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:391]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:392]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:393]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:394]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:395]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:396]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:397]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:398]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:399]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:400]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:401]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:402]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:403]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:404]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:405]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:406]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:407]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:408]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:409]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:410]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:411]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:412]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:413]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:414]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:415]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:416]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:417]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:418]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:419]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:420]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:421]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:422]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:423]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:424]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:425]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:426]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:427]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:428]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:429]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:430]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:431]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:432]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:433]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:434]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:435]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:436]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:437]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:438]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:439]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:440]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:441]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:442]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:443]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:444]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:445]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:446]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:447]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:448]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:449]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:450]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:451]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:452]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+INFO: [Common 17-14] Message 'Netlist 29-160' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc:452]
+Finished Parsing XDC File [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst'
+Parsing XDC File [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/constrs_1/new/port_constraints.xdc]
+Finished Parsing XDC File [/media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.srcs/constrs_1/new/port_constraints.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 32 instances were transformed.
+  RAM128X1D => RAM128X1D (RAMD64E, RAMD64E, MUXF7, MUXF7, RAMD64E, RAMD64E): 12 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 3 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 1 instances
+  RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 16 instances
+
+link_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1147.590 ; gain = 258.223 ; free physical = 1492 ; free virtual = 13543
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00.14 ; elapsed = 00:00:00.14 . Memory (MB): peak = 1163.605 ; gain = 8.012 ; free physical = 1486 ; free virtual = 13537
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 13240f7e2
+
+Time (s): cpu = 00:00:00.18 ; elapsed = 00:00:00.13 . Memory (MB): peak = 1607.113 ; gain = 0.000 ; free physical = 1135 ; free virtual = 13189
+
+Phase 2 Constant Propagation
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 1 load pin(s).
+INFO: [Opt 31-10] Eliminated 449 cells.
+Phase 2 Constant Propagation | Checksum: 10ca607b2
+
+Time (s): cpu = 00:00:00.50 ; elapsed = 00:00:00.40 . Memory (MB): peak = 1607.113 ; gain = 0.000 ; free physical = 1134 ; free virtual = 13189
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 814 unconnected nets.
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-11] Eliminated 583 unconnected cells.
+Phase 3 Sweep | Checksum: 10e507124
+
+Time (s): cpu = 00:00:00.98 ; elapsed = 00:00:00.83 . Memory (MB): peak = 1607.113 ; gain = 0.000 ; free physical = 1134 ; free virtual = 13189
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1607.113 ; gain = 0.000 ; free physical = 1134 ; free virtual = 13189
+Ending Logic Optimization Task | Checksum: 10e507124
+
+Time (s): cpu = 00:00:00.98 ; elapsed = 00:00:00.84 . Memory (MB): peak = 1607.113 ; gain = 0.000 ; free physical = 1134 ; free virtual = 13189
+Implement Debug Cores | Checksum: 1c28ac387
+Logic Optimization | Checksum: 1c28ac387
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 3.12 ns.
+Ending Power Optimization Task | Checksum: 10e507124
+
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.03 . Memory (MB): peak = 1607.113 ; gain = 0.000 ; free physical = 1134 ; free virtual = 13189
+INFO: [Common 17-83] Releasing license: Implementation
+22 Infos, 0 Warnings, 100 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1607.113 ; gain = 459.523 ; free physical = 1134 ; free virtual = 13189
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:00.06 . Memory (MB): peak = 1639.129 ; gain = 0.000 ; free physical = 1131 ; free virtual = 13189
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.runs/impl_1/design_1_wrapper_drc_opted.rpt.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 4 CPUs
+
+Phase 1 Placer Runtime Estimator
+Phase 1 Placer Runtime Estimator | Checksum: 62b02cb3
+
+Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.05 . Memory (MB): peak = 1639.129 ; gain = 0.000 ; free physical = 1113 ; free virtual = 13170
+
+Phase 2 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1639.129 ; gain = 0.000 ; free physical = 1113 ; free virtual = 13170
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1639.129 ; gain = 0.000 ; free physical = 1113 ; free virtual = 13170
+
+Phase 2.1 IO Placement/ Clock Placement/ Build Placer Device
+
+Phase 2.1.1 Pre-Place Cells
+Phase 2.1.1 Pre-Place Cells | Checksum: 314311e3
+
+Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.10 . Memory (MB): peak = 1639.129 ; gain = 0.000 ; free physical = 1113 ; free virtual = 13170
+WARNING: [Place 30-12] An IO Bus MIO with more than one IO standard is found. Components associated with this bus are: 
+	MIO[53] of IOStandard LVCMOS18
+	MIO[52] of IOStandard LVCMOS18
+	MIO[51] of IOStandard LVCMOS18
+	MIO[50] of IOStandard LVCMOS18
+	MIO[49] of IOStandard LVCMOS18
+	MIO[48] of IOStandard LVCMOS18
+	MIO[47] of IOStandard LVCMOS18
+	MIO[46] of IOStandard LVCMOS18
+	MIO[45] of IOStandard LVCMOS18
+	MIO[44] of IOStandard LVCMOS18
+	MIO[43] of IOStandard LVCMOS18
+	MIO[42] of IOStandard LVCMOS18
+	MIO[41] of IOStandard LVCMOS18
+	MIO[40] of IOStandard LVCMOS18
+	MIO[39] of IOStandard LVCMOS18
+	MIO[38] of IOStandard LVCMOS18
+	MIO[37] of IOStandard LVCMOS18
+	MIO[36] of IOStandard LVCMOS18
+	MIO[35] of IOStandard LVCMOS18
+	MIO[34] of IOStandard LVCMOS18
+	MIO[33] of IOStandard LVCMOS18
+	MIO[32] of IOStandard LVCMOS18
+	MIO[31] of IOStandard LVCMOS18
+	MIO[30] of IOStandard LVCMOS18
+	MIO[29] of IOStandard LVCMOS18
+	MIO[28] of IOStandard LVCMOS18
+	MIO[27] of IOStandard LVCMOS18
+	MIO[26] of IOStandard LVCMOS18
+	MIO[25] of IOStandard LVCMOS18
+	MIO[24] of IOStandard LVCMOS18
+	MIO[23] of IOStandard LVCMOS18
+	MIO[22] of IOStandard LVCMOS18
+	MIO[21] of IOStandard LVCMOS18
+	MIO[20] of IOStandard LVCMOS18
+	MIO[19] of IOStandard LVCMOS18
+	MIO[18] of IOStandard LVCMOS18
+	MIO[17] of IOStandard LVCMOS18
+	MIO[16] of IOStandard LVCMOS18
+	MIO[15] of IOStandard LVCMOS33
+	MIO[14] of IOStandard LVCMOS33
+	MIO[13] of IOStandard LVCMOS33
+	MIO[12] of IOStandard LVCMOS33
+	MIO[11] of IOStandard LVCMOS33
+	MIO[10] of IOStandard LVCMOS33
+	MIO[9] of IOStandard LVCMOS33
+	MIO[8] of IOStandard LVCMOS33
+	MIO[7] of IOStandard LVCMOS33
+	MIO[6] of IOStandard LVCMOS33
+	MIO[5] of IOStandard LVCMOS33
+	MIO[4] of IOStandard LVCMOS33
+	MIO[3] of IOStandard LVCMOS33
+	MIO[2] of IOStandard LVCMOS33
+	MIO[1] of IOStandard LVCMOS33
+	MIO[0] of IOStandard LVCMOS33
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 2.1.2 IO & Clk Clean Up
+WARNING: [Place 30-574] Poor placement for routing between an IO pin and BUFG. This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint is set to FALSE allowing your design to continue. The use of this override is highly discouraged as it may lead to very poor timing results. It is recommended that this error condition be corrected in the design.
+
+	out_clk_IBUF_inst (IBUF.O) is locked to IOB_X1Y52
+	out_clk_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y0
+Resolution: Poor placement of an IO pin and a BUFG has resulted in the router using a non-dedicated path between the two.  There are several things that could trigger this DRC, each of which can cause unpredictable clock insertion delays that result in poor timing.  This DRC could be caused by any of the following: (a) a clock port was placed on a pin that is not a CCIO-pin (b)the BUFG has not been placed in the same half of the device or SLR as the CCIO-pin (c) a single ended clock has been placed on the N-Side of a differential pair CCIO-pin.
+Phase 2.1.2 IO & Clk Clean Up | Checksum: 314311e3
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.92 . Memory (MB): peak = 1660.129 ; gain = 21.000 ; free physical = 1112 ; free virtual = 13169
+
+Phase 2.1.3 Implementation Feasibility check On IDelay
+Phase 2.1.3 Implementation Feasibility check On IDelay | Checksum: 314311e3
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.92 . Memory (MB): peak = 1660.129 ; gain = 21.000 ; free physical = 1112 ; free virtual = 13169
+
+Phase 2.1.4 Commit IO Placement
+Phase 2.1.4 Commit IO Placement | Checksum: b24b9a5a
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.92 . Memory (MB): peak = 1660.129 ; gain = 21.000 ; free physical = 1112 ; free virtual = 13169
+Phase 2.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 150a05931
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.92 . Memory (MB): peak = 1660.129 ; gain = 21.000 ; free physical = 1112 ; free virtual = 13169
+
+Phase 2.2 Build Placer Netlist Model
+
+Phase 2.2.1 Place Init Design
+
+Phase 2.2.1.1 Init Lut Pin Assignment
+Phase 2.2.1.1 Init Lut Pin Assignment | Checksum: 1b8082157
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1660.129 ; gain = 21.000 ; free physical = 1112 ; free virtual = 13169
+Phase 2.2.1 Place Init Design | Checksum: 1a5f7df67
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1660.129 ; gain = 21.000 ; free physical = 1112 ; free virtual = 13169
+Phase 2.2 Build Placer Netlist Model | Checksum: 1a5f7df67
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1660.129 ; gain = 21.000 ; free physical = 1112 ; free virtual = 13169
+
+Phase 2.3 Constrain Clocks/Macros
+
+Phase 2.3.1 Constrain Global/Regional Clocks
+Phase 2.3.1 Constrain Global/Regional Clocks | Checksum: 1a5f7df67
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1660.129 ; gain = 21.000 ; free physical = 1112 ; free virtual = 13169
+Phase 2.3 Constrain Clocks/Macros | Checksum: 1a5f7df67
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1660.129 ; gain = 21.000 ; free physical = 1112 ; free virtual = 13169
+Phase 2 Placer Initialization | Checksum: 1a5f7df67
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1660.129 ; gain = 21.000 ; free physical = 1112 ; free virtual = 13169
+
+Phase 3 Global Placement
+Phase 3 Global Placement | Checksum: 1ce6c3ce4
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1676.137 ; gain = 37.008 ; free physical = 1106 ; free virtual = 13164
+
+Phase 4 Detail Placement
+
+Phase 4.1 Commit Multi Column Macros
+Phase 4.1 Commit Multi Column Macros | Checksum: 1ce6c3ce4
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1676.137 ; gain = 37.008 ; free physical = 1106 ; free virtual = 13164
+
+Phase 4.2 Commit Most Macros & LUTRAMs
+Phase 4.2 Commit Most Macros & LUTRAMs | Checksum: c8054667
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1676.137 ; gain = 37.008 ; free physical = 1106 ; free virtual = 13164
+
+Phase 4.3 Area Swap Optimization
+Phase 4.3 Area Swap Optimization | Checksum: 17f1101b1
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1676.137 ; gain = 37.008 ; free physical = 1106 ; free virtual = 13164
+
+Phase 4.4 updateClock Trees: DP
+Phase 4.4 updateClock Trees: DP | Checksum: 17f1101b1
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1676.137 ; gain = 37.008 ; free physical = 1106 ; free virtual = 13164
+
+Phase 4.5 Timing Path Optimizer
+Phase 4.5 Timing Path Optimizer | Checksum: 127b7fbad
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1676.137 ; gain = 37.008 ; free physical = 1106 ; free virtual = 13164
+
+Phase 4.6 Small Shape Detail Placement
+
+Phase 4.6.1 Commit Small Macros & Core Logic
+
+Phase 4.6.1.1 setBudgets
+Phase 4.6.1.1 setBudgets | Checksum: 16839c5a8
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1676.137 ; gain = 37.008 ; free physical = 1106 ; free virtual = 13164
+
+Phase 4.6.1.2 Commit Slice Clusters
+Phase 4.6.1.2 Commit Slice Clusters | Checksum: 1344ae0d1
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:02 . Memory (MB): peak = 1676.137 ; gain = 37.008 ; free physical = 1101 ; free virtual = 13159
+Phase 4.6.1 Commit Small Macros & Core Logic | Checksum: 1344ae0d1
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:02 . Memory (MB): peak = 1676.137 ; gain = 37.008 ; free physical = 1101 ; free virtual = 13159
+
+Phase 4.6.2 Clock Restriction Legalization for Leaf Columns
+Phase 4.6.2 Clock Restriction Legalization for Leaf Columns | Checksum: 1344ae0d1
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:02 . Memory (MB): peak = 1676.137 ; gain = 37.008 ; free physical = 1101 ; free virtual = 13159
+
+Phase 4.6.3 Clock Restriction Legalization for Non-Clock Pins
+Phase 4.6.3 Clock Restriction Legalization for Non-Clock Pins | Checksum: 1344ae0d1
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:02 . Memory (MB): peak = 1676.137 ; gain = 37.008 ; free physical = 1101 ; free virtual = 13159
+Phase 4.6 Small Shape Detail Placement | Checksum: 1344ae0d1
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:02 . Memory (MB): peak = 1676.137 ; gain = 37.008 ; free physical = 1101 ; free virtual = 13159
+
+Phase 4.7 Re-assign LUT pins
+Phase 4.7 Re-assign LUT pins | Checksum: 1344ae0d1
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:02 . Memory (MB): peak = 1676.137 ; gain = 37.008 ; free physical = 1101 ; free virtual = 13159
+Phase 4 Detail Placement | Checksum: 1344ae0d1
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:02 . Memory (MB): peak = 1676.137 ; gain = 37.008 ; free physical = 1101 ; free virtual = 13159
+
+Phase 5 Post Placement Optimization and Clean-Up
+
+Phase 5.1 PCOPT Shape updates
+Phase 5.1 PCOPT Shape updates | Checksum: 1a2e4400b
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:02 . Memory (MB): peak = 1676.137 ; gain = 37.008 ; free physical = 1101 ; free virtual = 13159
+
+Phase 5.2 Post Commit Optimization
+
+Phase 5.2.1 updateClock Trees: PCOPT
+Phase 5.2.1 updateClock Trees: PCOPT | Checksum: 1a2e4400b
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:02 . Memory (MB): peak = 1676.137 ; gain = 37.008 ; free physical = 1101 ; free virtual = 13159
+
+Phase 5.2.2 Post Placement Optimization
+
+Phase 5.2.2.1 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=1.612. For the most accurate timing information please run report_timing.
+Phase 5.2.2.1 Post Placement Timing Optimization | Checksum: 11df1e771
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1676.137 ; gain = 37.008 ; free physical = 1101 ; free virtual = 13159
+Phase 5.2.2 Post Placement Optimization | Checksum: 11df1e771
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1676.137 ; gain = 37.008 ; free physical = 1101 ; free virtual = 13159
+Phase 5.2 Post Commit Optimization | Checksum: 11df1e771
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1676.137 ; gain = 37.008 ; free physical = 1101 ; free virtual = 13159
+
+Phase 5.3 Sweep Clock Roots: Post-Placement
+Phase 5.3 Sweep Clock Roots: Post-Placement | Checksum: 11df1e771
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1676.137 ; gain = 37.008 ; free physical = 1101 ; free virtual = 13159
+
+Phase 5.4 Post Placement Cleanup
+Phase 5.4 Post Placement Cleanup | Checksum: 11df1e771
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1676.137 ; gain = 37.008 ; free physical = 1101 ; free virtual = 13159
+
+Phase 5.5 Placer Reporting
+
+Phase 5.5.1 Restore STA
+Phase 5.5.1 Restore STA | Checksum: 11df1e771
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1676.137 ; gain = 37.008 ; free physical = 1101 ; free virtual = 13159
+Phase 5.5 Placer Reporting | Checksum: 11df1e771
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1676.137 ; gain = 37.008 ; free physical = 1101 ; free virtual = 13159
+
+Phase 5.6 Final Placement Cleanup
+Phase 5.6 Final Placement Cleanup | Checksum: ca5a8c64
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1676.137 ; gain = 37.008 ; free physical = 1101 ; free virtual = 13159
+Phase 5 Post Placement Optimization and Clean-Up | Checksum: ca5a8c64
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1676.137 ; gain = 37.008 ; free physical = 1101 ; free virtual = 13159
+Ending Placer Task | Checksum: 5e8d9195
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1676.137 ; gain = 37.008 ; free physical = 1101 ; free virtual = 13159
+INFO: [Common 17-83] Releasing license: Implementation
+35 Infos, 2 Warnings, 100 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.44 ; elapsed = 00:00:00.18 . Memory (MB): peak = 1676.137 ; gain = 0.000 ; free physical = 1094 ; free virtual = 13157
+report_io: Time (s): cpu = 00:00:00.13 ; elapsed = 00:00:00.16 . Memory (MB): peak = 1676.137 ; gain = 0.000 ; free physical = 1095 ; free virtual = 13157
+report_utilization: Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.15 . Memory (MB): peak = 1676.137 ; gain = 0.000 ; free physical = 1094 ; free virtual = 13156
+report_control_sets: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.09 . Memory (MB): peak = 1676.137 ; gain = 0.000 ; free physical = 1094 ; free virtual = 13155
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 4 threads
+WARNING: [DRC 23-20] Rule violation (PLCK-12) Clock Placer Checks - Poor placement for routing between an IO pin and BUFG. 
+Resolution: Poor placement of an IO pin and a BUFG has resulted in the router using a non-dedicated path between the two.  There are several things that could trigger this DRC, each of which can cause unpredictable clock insertion delays that result in poor timing.  This DRC could be caused by any of the following: (a) a clock port was placed on a pin that is not a CCIO-pin (b)the BUFG has not been placed in the same half of the device or SLR as the CCIO-pin (c) a single ended clock has been placed on the N-Side of a differential pair CCIO-pin.
+This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint is set to FALSE allowing your design to continue. The use of this override is highly discouraged as it may lead to very poor timing results. It is recommended that this error condition be corrected in the design.
+
+	out_clk_IBUF_inst (IBUF.O) is locked to P16
+	out_clk_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y0
+
+WARNING: [DRC 23-20] Rule violation (PLIO-7) Placement Constraints Check for IO constraints - An IO Bus MIO[53:0] with more than one IO standard is found. Components associated with this bus are:  MIO[53] of IOStandard LVCMOS18; MIO[52] of IOStandard LVCMOS18; MIO[51] of IOStandard LVCMOS18; MIO[50] of IOStandard LVCMOS18; MIO[49] of IOStandard LVCMOS18; MIO[48] of IOStandard LVCMOS18; MIO[47] of IOStandard LVCMOS18; MIO[46] of IOStandard LVCMOS18; MIO[45] of IOStandard LVCMOS18; MIO[44] of IOStandard LVCMOS18; MIO[43] of IOStandard LVCMOS18; MIO[42] of IOStandard LVCMOS18; MIO[41] of IOStandard LVCMOS18; MIO[40] of IOStandard LVCMOS18; MIO[39] of IOStandard LVCMOS18; MIO[38] of IOStandard LVCMOS18; MIO[37] of IOStandard LVCMOS18; MIO[36] of IOStandard LVCMOS18; MIO[35] of IOStandard LVCMOS18; MIO[34] of IOStandard LVCMOS18; MIO[33] of IOStandard LVCMOS18; MIO[32] of IOStandard LVCMOS18; MIO[31] of IOStandard LVCMOS18; MIO[30] of IOStandard LVCMOS18; MIO[29] of IOStandard LVCMOS18; MIO[28] of IOStandard LVCMOS18; MIO[27] of IOStandard LVCMOS18; MIO[26] of IOStandard LVCMOS18; MIO[25] of IOStandard LVCMOS18; MIO[24] of IOStandard LVCMOS18; MIO[23] of IOStandard LVCMOS18; MIO[22] of IOStandard LVCMOS18; MIO[21] of IOStandard LVCMOS18; MIO[20] of IOStandard LVCMOS18; MIO[19] of IOStandard LVCMOS18; MIO[18] of IOStandard LVCMOS18; MIO[17] of IOStandard LVCMOS18; MIO[16] of IOStandard LVCMOS18; MIO[15] of IOStandard LVCMOS33; MIO[14] of IOStandard LVCMOS33; MIO[13] of IOStandard LVCMOS33; MIO[12] of IOStandard LVCMOS33; MIO[11] of IOStandard LVCMOS33; MIO[10] of IOStandard LVCMOS33; MIO[9] of IOStandard LVCMOS33; MIO[8] of IOStandard LVCMOS33; MIO[7] of IOStandard LVCMOS33; MIO[6] of IOStandard LVCMOS33; MIO[5] of IOStandard LVCMOS33; MIO[4] of IOStandard LVCMOS33; MIO[3] of IOStandard LVCMOS33; MIO[2] of IOStandard LVCMOS33; MIO[1] of IOStandard LVCMOS33; MIO[0] of IOStandard LVCMOS33;
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 2 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 4 CPUs
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 14742303e
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:18 . Memory (MB): peak = 1733.797 ; gain = 57.660 ; free physical = 988 ; free virtual = 13048
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 14742303e
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:18 . Memory (MB): peak = 1738.797 ; gain = 62.660 ; free physical = 987 ; free virtual = 13047
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 14742303e
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:18 . Memory (MB): peak = 1753.797 ; gain = 77.660 ; free physical = 972 ; free virtual = 13032
+ Number of Nodes with overlaps = 0
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: 20d319578
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:19 . Memory (MB): peak = 1779.852 ; gain = 103.715 ; free physical = 945 ; free virtual = 13006
+INFO: [Route 35-57] Estimated Timing Summary | WNS=1.720  | TNS=0.000  | WHS=-0.184 | THS=-68.984|
+
+Phase 2 Router Initialization | Checksum: 23a8ccd5a
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:19 . Memory (MB): peak = 1779.852 ; gain = 103.715 ; free physical = 945 ; free virtual = 13006
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 198d7f96e
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:19 . Memory (MB): peak = 1779.852 ; gain = 103.715 ; free physical = 945 ; free virtual = 13006
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 72
+ Number of Nodes with overlaps = 10
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: 1765a2420
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:20 . Memory (MB): peak = 1779.852 ; gain = 103.715 ; free physical = 946 ; free virtual = 13006
+INFO: [Route 35-57] Estimated Timing Summary | WNS=1.345  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 1dc7527ec
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:20 . Memory (MB): peak = 1779.852 ; gain = 103.715 ; free physical = 946 ; free virtual = 13006
+Phase 4 Rip-up And Reroute | Checksum: 1dc7527ec
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:20 . Memory (MB): peak = 1779.852 ; gain = 103.715 ; free physical = 946 ; free virtual = 13006
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 21bf7b2e1
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:20 . Memory (MB): peak = 1779.852 ; gain = 103.715 ; free physical = 946 ; free virtual = 13006
+INFO: [Route 35-57] Estimated Timing Summary | WNS=1.511  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 5.1 Delay CleanUp | Checksum: 21bf7b2e1
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:20 . Memory (MB): peak = 1779.852 ; gain = 103.715 ; free physical = 946 ; free virtual = 13006
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 21bf7b2e1
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:20 . Memory (MB): peak = 1779.852 ; gain = 103.715 ; free physical = 946 ; free virtual = 13006
+Phase 5 Delay and Skew Optimization | Checksum: 21bf7b2e1
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:20 . Memory (MB): peak = 1779.852 ; gain = 103.715 ; free physical = 946 ; free virtual = 13006
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Update Timing
+Phase 6.1 Update Timing | Checksum: 239927a30
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:20 . Memory (MB): peak = 1779.852 ; gain = 103.715 ; free physical = 946 ; free virtual = 13006
+INFO: [Route 35-57] Estimated Timing Summary | WNS=1.511  | TNS=0.000  | WHS=0.073  | THS=0.000  |
+
+Phase 6 Post Hold Fix | Checksum: 19b1bbe55
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:20 . Memory (MB): peak = 1779.852 ; gain = 103.715 ; free physical = 946 ; free virtual = 13006
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.133685 %
+  Global Horizontal Routing Utilization  = 0.161342 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 1c5debb4b
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:20 . Memory (MB): peak = 1779.852 ; gain = 103.715 ; free physical = 946 ; free virtual = 13006
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 1c5debb4b
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:20 . Memory (MB): peak = 1779.852 ; gain = 103.715 ; free physical = 946 ; free virtual = 13006
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 1fd31a3df
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:20 . Memory (MB): peak = 1779.852 ; gain = 103.715 ; free physical = 946 ; free virtual = 13006
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=1.511  | TNS=0.000  | WHS=0.073  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 1fd31a3df
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:20 . Memory (MB): peak = 1779.852 ; gain = 103.715 ; free physical = 946 ; free virtual = 13006
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:20 . Memory (MB): peak = 1779.852 ; gain = 103.715 ; free physical = 946 ; free virtual = 13006
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+48 Infos, 4 Warnings, 100 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:20 . Memory (MB): peak = 1805.754 ; gain = 129.617 ; free physical = 946 ; free virtual = 13006
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.51 ; elapsed = 00:00:00.20 . Memory (MB): peak = 1821.660 ; gain = 0.000 ; free physical = 940 ; free virtual = 13006
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /media/parth/F/Parth/vivado/vivado_proj/spi_read_id/spi_read_id.runs/impl_1/design_1_wrapper_drc_routed.rpt.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 4 CPUs
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command write_bitstream
+INFO: [DRC 23-27] Running DRC with 4 threads
+WARNING: [DRC 23-20] Rule violation (BUFC-1) Input Buffer Connections - Input buffer read_from_spi_init_axi_txn_IBUF_inst has no loads. An input buffer must drive an internal load.
+WARNING: [DRC 23-20] Rule violation (RTSTAT-10) No routable loads - 1 net(s) have no routable loads. The problem bus(es) and/or net(s) are read_from_spi_init_axi_txn_IBUF.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 2 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./design_1_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Common 17-83] Releasing license: Implementation
+write_bitstream: Time (s): cpu = 00:00:17 ; elapsed = 00:00:16 . Memory (MB): peak = 2122.816 ; gain = 269.125 ; free physical = 632 ; free virtual = 12704
+INFO: [Common 17-206] Exiting Vivado at Sun Apr  8 06:11:50 2018...
